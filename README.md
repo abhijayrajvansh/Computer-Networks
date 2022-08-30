@@ -1,8 +1,13 @@
 # Computer-Networks
 
+© [Abhijay Rajvansh](http://github.com/abhijayrajvansh), [LinkedIn](https://www.linkedin.com/in/abhijayrajvansh).
+
+Type this command in your AWS Terminal Server:
+
 ```
-Associate Learning Object Repository - SRMIST, 5th Semester (CSE). Curated List of Experiments in Computer Networks Lab 
+git clone https://github.com/abhijayrajvansh/Computer-Networks.git
 ```
+
 
          ___        ______     ____ _                 _  ___  
         / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
