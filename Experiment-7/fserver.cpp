@@ -5,6 +5,7 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
+#include <cstring>
 
 int main(int argc, char *argv[])
 {
@@ -49,8 +50,6 @@ int main(int argc, char *argv[])
             printf("%s\n", "Enter the input data:");
             /*Read the message from client*/
 
-        Client:
-            fclient.c
                 fgets(buff1, 10000, stdin);
             /*Sends the message to client*/
             send(ad, buff1, strlen(buff1) + 1, 0);

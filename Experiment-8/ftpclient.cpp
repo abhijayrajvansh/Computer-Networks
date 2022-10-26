@@ -1,7 +1,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-
+#include <cstring>
 #include <arpa/inet.h>
 #include <netdb.h>
 #include <stdio.h>
@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
     struct sockaddr_in servaddr, cliaddr;
     socklen_t clilen;
     char buff[100], file[10000];
-    struct hostent *h;
     h = gethostbyname(argv[1]);
     bzero(&servaddr, sizeof(servaddr));
     servaddr.sin_family = h->h_addrtype;
