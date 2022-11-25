@@ -6,6 +6,8 @@
 #include <unistd.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <cstring>
+#include <cstdlib>
 
 int main(int argc, char *argv[])
 {
