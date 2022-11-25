@@ -7,7 +7,7 @@
 #include <sys/stat.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-#include <sys/types.h>
+#include <bits/stdc++.h>
 
 int main(int argc, char *argv[])
 {
