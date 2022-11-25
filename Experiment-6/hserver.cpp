@@ -5,6 +5,7 @@
 #include<arpa/inet.h> 
 #include<unistd.h> 
 #include<netinet/in.h>
+#include <cstring>
 
 int main(int argc, char *argv[])
 {

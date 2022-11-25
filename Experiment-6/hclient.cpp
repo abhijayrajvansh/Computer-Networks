@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <netdb.h>
+#include <cstring>
 
 int main(int argc, char *argv[])
 {
